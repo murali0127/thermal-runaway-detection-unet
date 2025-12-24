@@ -1,0 +1,56 @@
+======================================================================
+Architecture: U-Net with Skip Connections
+Input Size: 128x128x1
+Trainable Parameters: 31,042,369
+Loss Function: Combined Focal-Dice Loss
+Optimizer: Adam (lr=0.0001)
+Batch Size: 8
+Epochs Trained: 30
+
+======================================================================
+DATASET SUMMARY
+======================================================================
+Training Samples: 1050
+Validation Samples: 225
+Test Samples: 225
+
+======================================================================
+TEST SET PERFORMANCE
+======================================================================
+loss                     : 0.1944
+compile_metrics          : 0.8140
+
+======================================================================
+DETAILED STATISTICS (Test Set)
+======================================================================
+Dice Coefficient:
+  Mean ± Std: 0.7796 ± 0.1901
+  Range: [0.0070, 0.9780]
+
+IoU Score:
+  Mean ± Std: 0.6718 ± 0.2161
+  Range: [0.0035, 0.9570]
+
+======================================================================
+TARGET PERFORMANCE 
+======================================================================
+Target Accuracy: >95%
+Target Dice Coefficient: >0.94
+Target IoU: >0.91
+Target Latency: <100ms
+
+
+======================================================================
+FILES GENERATED
+======================================================================
+- Model: /content/drive/MyDrive//myDrive/u-net(2) output.keras
+- Best Checkpoint: /content/drive/MyDrive//mydrive/u-net(2) output.keras
+- Training History: /content/drive/MyDrive//training_history.png
+- Test Predictions: /content/drive/MyDrive//test_predictions.png
+- Performance Distribution: /content/drive/MyDrive//performance_distribution.png
+- Training Log: /content/drive/MyDrive//training_log.csv
+- This Report: /content/drive/MyDrive//performance_report.txt
+
+======================================================================
+Generated: 1766149315.516913
+======================================================================
