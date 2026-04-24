@@ -33,7 +33,7 @@ This project presents a deep learning–based thermal management system for earl
 - MATLAB (simulation)
 
 # 📁 Repository Structure
-
+```
 thermal-runaway-detection-unet/
 │
 ├── README.md
@@ -61,7 +61,7 @@ thermal-runaway-detection-unet/
 ├── requirements.txt
 │
 └── .gitignore
-
+```
 #Model Prediction for the Sample dataset with XAI
 <img width="2773" height="1217" alt="image" src="https://github.com/user-attachments/assets/10e418b2-127f-4691-9a9d-ffe35fd94076" />
 
