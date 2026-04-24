@@ -62,10 +62,16 @@ thermal-runaway-detection-unet/
 │
 └── .gitignore
 ```
-#Model Prediction for the Sample dataset with XAI
+
+
+# Model Prediction for the Sample dataset with XAI
+
 <img width="2773" height="1217" alt="image" src="https://github.com/user-attachments/assets/10e418b2-127f-4691-9a9d-ffe35fd94076" />
 
-**Published in:**
+
+
+# **Published in:**
+
 *International Journal of Innovative Research in Electrical, Electronics, Instrumentation and Control Engineering (IJIREEICE)*, Vol. 14, Issue 3, March 2026  
 **DOI:** [10.17148/IJIREEICE.2026.14385](https://doi.org/10.17148/IJIREEICE.2026.14385) · **Impact Factor:** 8.414  
 
