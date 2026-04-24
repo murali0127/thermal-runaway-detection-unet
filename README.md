@@ -9,6 +9,7 @@ This project presents a deep learning–based thermal management system for earl
 - Real-time inference (<100 ms latency)
 - Active cooling and isolation of fault cell using MOSFET-based cirucuit breakers
 - 25% reduction in thermal runaway incidents(experimental)
+- Implemented Explainable AI (XAI) with grad-CAM activation and Attention Map.
 
 # 🧠 Model Architecture
 
@@ -41,7 +42,7 @@ thermal-runaway-detection-unet/
 │   └── Project_Report.pdf
 │
 ├── notebooks/
-│   └── UNet_Thermal_Runaway_Training.ipynb
+│   └── Final_Unet.ipynb
 │
 ├── src/
 │   ├── model.py
@@ -55,8 +56,8 @@ thermal-runaway-detection-unet/
 │
 ├── results/
 │   ├── predictions/
-│   └── metrics.png
-│
+│   └── metrices/
+│   └── README.md
 ├── requirements.txt
 │
 └── .gitignore
@@ -67,3 +68,12 @@ thermal-runaway-detection-unet/
 pip install -r requirements.txt
 python src/train.py
 python src/inference.py
+
+
+#Model Prediction for the Sample dataset with XAI
+<img width="2773" height="1217" alt="image" src="https://github.com/user-attachments/assets/10e418b2-127f-4691-9a9d-ffe35fd94076" />
+
+**Published in:**
+*International Journal of Innovative Research in Electrical, Electronics, Instrumentation and Control Engineering (IJIREEICE)*, Vol. 14, Issue 3, March 2026  
+**DOI:** [10.17148/IJIREEICE.2026.14385](https://doi.org/10.17148/IJIREEICE.2026.14385) · **Impact Factor:** 8.414  
+
